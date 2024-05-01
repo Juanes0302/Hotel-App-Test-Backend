@@ -26,3 +26,4 @@ C:\Users\Juanes\source\repos\HotelApp-backend\DB\obj\Debug\net8.0\refint\DB.dll
 C:\Users\Juanes\source\repos\HotelApp-backend\DB\obj\Debug\net8.0\DB.pdb
 C:\Users\Juanes\source\repos\HotelApp-backend\DB\obj\Debug\net8.0\DB.genruntimeconfig.cache
 C:\Users\Juanes\source\repos\HotelApp-backend\DB\obj\Debug\net8.0\ref\DB.dll
+C:\Users\Juanes\source\repos\HotelApp-backend\DB\obj\Debug\net8.0\DB.sourcelink.json

@@ -1,6 +1,8 @@
 ﻿using DB;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data.SqlTypes;
+using System.Globalization;
 
 namespace HotelApp.Controllers
 {
@@ -29,6 +31,22 @@ namespace HotelApp.Controllers
         [HttpPost]
         public async Task<IActionResult> PostGuests([FromBody] guest guest)
         {
+            if (guest.admission_date < SqlDateTime.MinValue.Value || guest.admission_date > SqlDateTime.MaxValue.Value)
+            {
+                return BadRequest("La fecha de admisión está fuera del rango válido.");
+            }
+
+            var room = await _context.Rooms.FindAsync(guest.id_room);
+            if (room == null)
+            {
+                return NotFound("La habitación no existe");
+            }
+            if (!room.status)
+            {
+                return BadRequest("La habitación está ocupada");
+            }
+            room.status = false;
+
             _context.Guest.Add(guest);
             await _context.SaveChangesAsync();
 
@@ -83,6 +101,7 @@ namespace HotelApp.Controllers
                 return new NotFoundResult();
             }
 
+            _context.Guest.Remove(GuestDB);
             
             await _context.SaveChangesAsync();
 

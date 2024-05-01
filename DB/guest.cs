@@ -17,8 +17,10 @@ namespace DB
         public string guest_fullname { get; set; }
         public string guest_dni { get; set; }
         public int guest_phone_number { get; set; }
-        public DateTimeConverter admission_date { get; set; }
-        public DateTimeConverter departure_date { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime admission_date { get; set; }
+        [Column(TypeName = "datetime")]
+        public DateTime departure_date { get; set; }
         public int id_room { get; set; }
     }
 }

@@ -15,6 +15,10 @@
       "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\hotelapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\hotelapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "HotelApp\\Controllers\\WeatherForecastController.cs",
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "HotelApp\\Controllers\\GuestController.cs",
               "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\GuestController.cs",
               "RelativeToolTip": "HotelApp\\Controllers\\GuestController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAcwA8AAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T19:31:21.568Z",
               "EditorCaption": ""
@@ -73,7 +73,7 @@
               "RelativeDocumentMoniker": "HotelApp\\Controllers\\RoomsController.cs",
               "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\RoomsController.cs",
               "RelativeToolTip": "HotelApp\\Controllers\\RoomsController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCMAAAAmAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAWwBYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T19:30:54.264Z"
             },
@@ -85,25 +85,25 @@
               "RelativeDocumentMoniker": "DB\\guest.cs",
               "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\guest.cs",
               "RelativeToolTip": "DB\\guest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T19:26:39.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "rooms.cs",
               "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\rooms.cs",
               "RelativeDocumentMoniker": "DB\\rooms.cs",
               "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\rooms.cs",
               "RelativeToolTip": "DB\\rooms.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T19:26:17.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Hotel.cs",
               "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\Hotel.cs",
               "RelativeDocumentMoniker": "DB\\Hotel.cs",
@@ -115,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Program.cs",
               "RelativeDocumentMoniker": "HotelApp\\Program.cs",

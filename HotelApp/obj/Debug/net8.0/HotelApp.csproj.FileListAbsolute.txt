@@ -169,3 +169,4 @@ C:\Users\Juanes\source\repos\HotelApp-backend\HotelApp\obj\Debug\net8.0\HotelApp
 C:\Users\Juanes\source\repos\HotelApp-backend\HotelApp\obj\Debug\net8.0\HotelApp.genruntimeconfig.cache
 C:\Users\Juanes\source\repos\HotelApp-backend\HotelApp\obj\Debug\net8.0\ref\HotelApp.dll
 C:\Users\Juanes\source\repos\HotelApp-backend\HotelApp\bin\Debug\net8.0\System.Web.Cors.dll
+C:\Users\Juanes\source\repos\HotelApp-backend\HotelApp\obj\Debug\net8.0\HotelApp.sourcelink.json
