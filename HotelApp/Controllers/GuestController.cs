@@ -72,7 +72,7 @@ namespace HotelApp.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutGuest(int id, [FromBody] guest guest)
         {
-            if(id != guest.id_guest)
+            if (id != guest.id_guest)
             {
                 return new BadRequestResult();
             }
@@ -82,12 +82,28 @@ namespace HotelApp.Controllers
                 return new NotFoundResult();
             }
 
+            // Obtener la habitación anterior del huésped
+            var previousRoom = await _context.Rooms.FindAsync(GuestDB.id_room);
+            if (previousRoom != null)
+            {
+                // Marcar la habitación anterior como disponible
+                previousRoom.status = true;
+            }
+
             GuestDB.guest_fullname = guest.guest_fullname;
             GuestDB.guest_dni = guest.guest_dni;
             GuestDB.guest_phone_number = guest.guest_phone_number;
             GuestDB.admission_date = guest.admission_date;
             GuestDB.departure_date = guest.departure_date;
             GuestDB.id_room = guest.id_room;
+
+            // Obtener la nueva habitación del huésped
+            var newRoom = await _context.Rooms.FindAsync(GuestDB.id_room);
+            if (newRoom != null)
+            {
+                // Marcar la nueva habitación como ocupada
+                newRoom.status = false;
+            }
 
             await _context.SaveChangesAsync();
             return new OkObjectResult(guest);
@@ -100,7 +116,11 @@ namespace HotelApp.Controllers
             {
                 return new NotFoundResult();
             }
-
+            var room = await _context.Rooms.FindAsync(GuestDB.id_room);
+            if (room.status == false)
+            {
+               room.status = true;
+            }
             _context.Guest.Remove(GuestDB);
             
             await _context.SaveChangesAsync();
