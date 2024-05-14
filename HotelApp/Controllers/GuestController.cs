@@ -1,6 +1,7 @@
 ﻿using DB;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data.Entity;
 using System.Data.SqlTypes;
 using System.Globalization;
 
@@ -48,6 +49,20 @@ namespace HotelApp.Controllers
             room.status = false;
 
             _context.Guest.Add(guest);
+            await _context.SaveChangesAsync();
+
+            var newRecord = new records
+            {
+                record_fullname = guest.guest_fullname,
+                record_dni = guest.guest_dni,
+                record_phone_number = guest.guest_phone_number,
+                record_admission_date = guest.admission_date,
+                record_departure_date = guest.departure_date,
+                record_room = room.room_identity,
+                id_guest = guest.id_guest,
+                id_room = guest.id_room,
+            };
+            _context.Records.Add(newRecord);
             await _context.SaveChangesAsync();
 
             return new OkObjectResult(guest);
@@ -122,7 +137,7 @@ namespace HotelApp.Controllers
                room.status = true;
             }
             _context.Guest.Remove(GuestDB);
-            
+   
             await _context.SaveChangesAsync();
 
             return new OkObjectResult(id);
