@@ -12,6 +12,7 @@ namespace DB
          public DbSet<rooms> Rooms { get; set; }
         public DbSet<guest> Guest { get; set; }
         public DbSet<records> Records { get; set; }
+        public DbSet<login> Login { get; set; }
        
     }
 }

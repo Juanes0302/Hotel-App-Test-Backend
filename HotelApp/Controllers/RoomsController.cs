@@ -29,7 +29,6 @@ namespace HotelApp.Controllers
             return roomDB;
             
         } 
-
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] rooms rooms)
         {
