@@ -13,11 +13,13 @@ namespace HotelApp.Controllers
         {
             _context = context;
         }
+        // Metodo para obtener todas los registros
         [HttpGet]
         public IEnumerable<records> GetRecords()
         {
             return _context.Records.ToList();
         }
+        // Metodo para eliminar un registro por medio de su id
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteGuest(int id)
         {

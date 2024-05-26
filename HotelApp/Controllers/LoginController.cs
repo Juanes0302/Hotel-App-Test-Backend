@@ -14,6 +14,7 @@ namespace HotelApp.Controllers
         {
             _context = context;
         }
+        // Metodo para validar el ingreso del usuario
         [HttpPost("validate")]
         public async Task<IActionResult> Post([FromBody] login login)
         {
@@ -37,6 +38,7 @@ namespace HotelApp.Controllers
             }
 
         }
+        // Metodo para obtener el idRol del usuario
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] string email)
         {
@@ -49,6 +51,7 @@ namespace HotelApp.Controllers
 
             return Ok(user.id_rol);
         }
+        // Metodo para registrar un nuevo usuario
         [HttpPost("register")]
         public async Task<IActionResult> PostL([FromBody] login login)
         {
@@ -57,6 +60,7 @@ namespace HotelApp.Controllers
 
             return new OkObjectResult(login);
         }
+        // Metodo para obtener todos los usuarios
         [HttpGet("users")]
         public IEnumerable<login> GetU()
         {
@@ -70,6 +74,7 @@ namespace HotelApp.Controllers
 
             return usersDB;
         }
+        // Metodo para eliminar un usuario por medio de su id
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteU(int id)
         {
@@ -84,6 +89,7 @@ namespace HotelApp.Controllers
 
             return new OkObjectResult(id);
         }
+        // Metodo para actualizar un usuario por medio de su id
         [HttpPut("{id}")]
 
         public async Task<IActionResult> Put(int id, [FromBody] login login)

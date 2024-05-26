@@ -7,16 +7,32 @@
       "RelativeMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\hotelapp\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\hotelapp\\controllers\\recordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\controllers\\recordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\hotelapp\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\hotelapp\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +43,16 @@
       "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\hotelapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\hotelapp\\hotelapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\hotelapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\hotelapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -49,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\hotelapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B135C-427A-42AD-AA03-3AACA6C348FB}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|c:\\users\\juanes\\source\\repos\\hotelapp-backend\\db\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F2F2B4B-A4DB-4BE0-AD4D-1A08A9A2AC75}|DB\\DB.csproj|solutionrelative:db\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,112 +70,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RecordsController.cs",
-              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\RecordsController.cs",
-              "RelativeDocumentMoniker": "HotelApp\\Controllers\\RecordsController.cs",
-              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\RecordsController.cs",
-              "RelativeToolTip": "HotelApp\\Controllers\\RecordsController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T16:03:25.419Z",
+              "DocumentIndex": 10,
+              "Title": "DB",
+              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\DB.csproj",
+              "RelativeDocumentMoniker": "DB\\DB.csproj",
+              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\DB.csproj",
+              "RelativeToolTip": "DB\\DB.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-26T22:06:48.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "HotelApp\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "HotelApp\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T20:57:35.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "records.cs",
-              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\records.cs",
-              "RelativeDocumentMoniker": "DB\\records.cs",
-              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\records.cs",
-              "RelativeToolTip": "DB\\records.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T15:57:47.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GuestController.cs",
-              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\GuestController.cs",
-              "RelativeDocumentMoniker": "HotelApp\\Controllers\\GuestController.cs",
-              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\GuestController.cs",
-              "RelativeToolTip": "HotelApp\\Controllers\\GuestController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA5wHUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T19:31:21.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoomsController.cs",
-              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\RoomsController.cs",
-              "RelativeDocumentMoniker": "HotelApp\\Controllers\\RoomsController.cs",
-              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\RoomsController.cs",
-              "RelativeToolTip": "HotelApp\\Controllers\\RoomsController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAtwDoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T19:30:54.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "rooms.cs",
               "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\rooms.cs",
               "RelativeDocumentMoniker": "DB\\rooms.cs",
               "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\rooms.cs",
               "RelativeToolTip": "DB\\rooms.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T19:26:17.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "HotelApp\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "HotelApp\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAkwGUAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:41:03.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "guest.cs",
               "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\guest.cs",
               "RelativeDocumentMoniker": "DB\\guest.cs",
               "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\guest.cs",
               "RelativeToolTip": "DB\\guest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBcAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T19:26:39.099Z"
+              "WhenOpened": "2024-04-30T19:26:39.099Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "login.cs",
               "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\login.cs",
               "RelativeDocumentMoniker": "DB\\login.cs",
@@ -180,43 +126,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Program.cs",
               "RelativeDocumentMoniker": "HotelApp\\Program.cs",
               "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Program.cs",
               "RelativeToolTip": "HotelApp\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAABPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T19:25:24.23Z"
+              "WhenOpened": "2024-04-30T19:25:24.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "HotelContext.cs",
               "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\HotelContext.cs",
               "RelativeDocumentMoniker": "DB\\HotelContext.cs",
               "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\HotelContext.cs",
               "RelativeToolTip": "DB\\HotelContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T20:31:17.514Z"
+              "WhenOpened": "2024-05-07T20:31:17.514Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\appsettings.json",
-              "RelativeDocumentMoniker": "HotelApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\appsettings.json",
-              "RelativeToolTip": "HotelApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-07T20:33:56.995Z"
+              "DocumentIndex": 7,
+              "Title": "records.cs",
+              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\records.cs",
+              "RelativeDocumentMoniker": "DB\\records.cs",
+              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\records.cs",
+              "RelativeToolTip": "DB\\records.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T15:57:47.973Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "Hotel.cs",
               "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\DB\\Hotel.cs",
               "RelativeDocumentMoniker": "DB\\Hotel.cs",
@@ -224,7 +173,98 @@
               "RelativeToolTip": "DB\\Hotel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T19:26:04.388Z"
+              "WhenOpened": "2024-04-30T19:26:04.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "HotelApp\\Controllers\\RoomsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T19:30:54.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GuestController.cs",
+              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\GuestController.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Controllers\\GuestController.cs",
+              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\GuestController.cs",
+              "RelativeToolTip": "HotelApp\\Controllers\\GuestController.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAcwJAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T19:31:21.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecordsController.cs",
+              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\RecordsController.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Controllers\\RecordsController.cs",
+              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\RecordsController.cs",
+              "RelativeToolTip": "HotelApp\\Controllers\\RecordsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T16:03:25.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "HotelApp\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:41:03.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HotelApp.http",
+              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\HotelApp.http",
+              "RelativeDocumentMoniker": "HotelApp\\HotelApp.http",
+              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\HotelApp.http",
+              "RelativeToolTip": "HotelApp\\HotelApp.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-26T22:03:16.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\appsettings.json",
+              "RelativeToolTip": "HotelApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-07T20:33:56.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Juanes\\source\\repos\\HotelApp-backend\\HotelApp\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "HotelApp\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T20:57:35.261Z"
             }
           ]
         }

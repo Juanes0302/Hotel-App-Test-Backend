@@ -18,6 +18,7 @@ namespace HotelApp.Controllers
             _context = context;
 
         }
+        // Metodo para obtener todas los Huespedes
         [HttpGet]
         public IEnumerable<guest> GetGuests()
         {
@@ -29,6 +30,7 @@ namespace HotelApp.Controllers
             }
             return GuestDB;
         }
+        // Metodo para crear un huesped
         [HttpPost]
         public async Task<IActionResult> PostGuests([FromBody] guest guest)
         {
@@ -50,7 +52,7 @@ namespace HotelApp.Controllers
 
             _context.Guest.Add(guest);
             await _context.SaveChangesAsync();
-
+            // creamos el registro del huesped registrado
             var newRecord = new records
             {
                 record_fullname = guest.guest_fullname,
@@ -68,22 +70,24 @@ namespace HotelApp.Controllers
             return new OkObjectResult(guest);
 
         }
+        // Metodo para traer una huesped por medio de su id
         [HttpGet("{id}")]
 
         public async Task<IActionResult> GetGuest(int id)
         {
-            if(id < 0)
+            if (id < 0)
             {
                 return new NotFoundResult();
             }
             var GuestDB = await _context.Guest.FindAsync(id);
-            if(GuestDB == null)
+            if (GuestDB == null)
             {
                 return new NotFoundResult();
             }
             GuestDB.guest_fullname = GuestDB.guest_fullname.ToString().Trim();
             return new OkObjectResult(GuestDB);
         }
+        // Metodo paraactualizar un huesped por medio de su id
         [HttpPut("{id}")]
         public async Task<IActionResult> PutGuest(int id, [FromBody] guest guest)
         {
@@ -123,6 +127,7 @@ namespace HotelApp.Controllers
             await _context.SaveChangesAsync();
             return new OkObjectResult(guest);
         }
+        // Metodo para eliminar un huesped por medio de su id
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteGuest(int id)
         {
@@ -131,10 +136,11 @@ namespace HotelApp.Controllers
             {
                 return new NotFoundResult();
             }
+            // obtener la habitacion del huesped
             var room = await _context.Rooms.FindAsync(GuestDB.id_room);
             if (room.status == false)
             {
-               room.status = true;
+               room.status = true; // colocarla nuevamente activa
             }
             _context.Guest.Remove(GuestDB);
    

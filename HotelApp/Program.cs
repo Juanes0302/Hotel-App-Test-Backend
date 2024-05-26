@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+// Configuramos el contexto de base de datos de entity Framework core
 builder.Services.AddDbContext<HotelContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("HotelConnection"));
@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+// configuracion de politicas Cors
 app.UseCors(x => x
             .AllowAnyOrigin()
             .AllowAnyMethod()

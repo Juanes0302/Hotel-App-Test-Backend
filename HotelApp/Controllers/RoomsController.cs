@@ -15,11 +15,12 @@ namespace HotelApp.Controllers
         {
             _context = context;
         }
+        // Metodo para obtener todas las habitaciones
         [HttpGet]
         public IEnumerable<rooms> Get() {
            //var roomDB = _context.Rooms.Where(room => room.status == true).ToList();
             var roomDB = _context.Rooms.ToList();
-
+            // utilizamos este iterador para borrar espacios sobrantes 
             foreach (var room in roomDB)
             {
                 room.room_identity = room.room_identity.ToString().Trim();
@@ -28,7 +29,8 @@ namespace HotelApp.Controllers
 
             return roomDB;
             
-        } 
+        }
+        // Metodo para crear una habitacion
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] rooms rooms)
         {
@@ -37,6 +39,7 @@ namespace HotelApp.Controllers
 
             return new OkObjectResult(rooms);
         }
+        // Metodo para traer una habitacion por medio de su id
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
@@ -54,8 +57,7 @@ namespace HotelApp.Controllers
             return new OkObjectResult(roomDB);
 
         }
-
-
+        // Metodo para actualizar la habitacion por medio de su id
         [HttpPut("{id}")]
 
         public async Task<IActionResult> Put(int id, [FromBody] rooms rooms)
@@ -81,6 +83,7 @@ namespace HotelApp.Controllers
             return new OkObjectResult(rooms);
 
         }
+        // Metodo para eliminar la habitacion por medio de su id
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
